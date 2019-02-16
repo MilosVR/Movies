@@ -49,11 +49,7 @@ import { Link, withRouter, NavLink } from 'react-router-dom'
         borderRadius:'5px',padding:'10px', background:"linear-gradient(gold, transparent)"}}>CAST & CREW
         </NavLink>
 
-        <NavLink to='/watch' activeStyle={{ color:"gold", background:'linear-gradient(transparent, gold)',textShadow:"2px 2px 4px #000000"}}
-        style={{color:"white",textShadow:"2px 2px 4px #000000", marginLeft:"15px", textDecoration: 'none',display:'flex',
-        fontFamily:"'Cinzel Decorative', cursive", fontWeight:"bold", justifyContent:"center", alignItems:"center",
-        borderRadius:'5px',padding:'10px', background:"linear-gradient(gold, transparent)"}}>WATCH ONLINE
-        </NavLink>  
+        
 
         <NavLink to='/movies' activeStyle={{ color:"gold", background:'linear-gradient(transparent, gold)',textShadow:"2px 2px 4px #000000"}}
         style={{color:"white",textShadow:"2px 2px 4px #000000", marginLeft:"15px", textDecoration: 'none',display:'flex',
