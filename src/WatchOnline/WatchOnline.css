@@ -1,0 +1,44 @@
+.eachEpisode{
+    padding: 23.5px !important;
+    display:flex;
+    align-items:center;
+    padding:23px !important;
+    background:black; 
+    color:white;
+}
+.eachEpisode:hover{
+    background:url('/assets/blackMetal1.jpg') center center ;
+    color: white !important;
+    cursor: pointer !important;
+}
+.buttonWatchShow{
+    background: url('/assets/buttonMetal.jpg') !important;
+    color: black !important;
+    cursor: pointer !important;
+}
+.buttonWatchShow:hover{
+    background: black !important;
+    color: gold !important;
+    cursor: pointer !important;
+}
+.buttonWatchHide{
+    background: url('/assets/buttonMetal.jpg') !important;
+    color: black !important;
+    cursor: pointer !important;    
+}
+.buttonWatchHide:hover{
+    background: black !important;
+    color: gold !important;
+    cursor: pointer !important;
+}
+.eachEpisodeWrapper{
+    background:white;
+    width:600px;
+    border-left:5px solid gold;
+    background:gold;
+    position: relative;
+}
+.buttonWatchWrapper{
+    position: absolute;
+    right:5px
+}
